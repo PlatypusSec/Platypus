@@ -3,7 +3,9 @@ Platypus Smart VPN for Safe passage through filtering
 
 **Are you want to using Platypus? If so, let us know! Shoot us an email at PlatypusSec@proton.me**
 
-aaaaaa
+## Why is the name of this tool Platypus?
+Platypus is one of the five extant species of monotremes, mammals that lay eggs instead of giving birth to live young. Like other monotremes, it senses prey through electrolocation. It is one of the few species of venomous mammals, as the male platypus has a spur on the hind foot that delivers a venom, capable of causing severe pain to humans. The unusual appearance of this egg-laying, duck-billed, beaver-tailed, otter-footed mammal baffled European naturalists when they first encountered it, and the first scientists to examine a preserved platypus body (in 1799) judged it a fake, made of several animals sewn together. the platypus is a legally protected species in all states where it occurs.
+The current tool is also a special and rare project, whose function is still difficult for many experts to understand, so we chose the name Platypus.
 
 ## Setup
 
