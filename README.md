@@ -36,4 +36,5 @@ See [our paper](https://Platypus/papers/Platypus.pdf) or the rest of [our papers
 ## Contributors
 
 [Platypus Sec Team](https://github.com/PlatypusSec)
+[Twitter](https://twitter.com/PlatypusSec)
 
