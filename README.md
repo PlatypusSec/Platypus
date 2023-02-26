@@ -34,7 +34,7 @@ Also, according to the Freedom House Report, which categorizes countries based o
 
 According to the report provided by [OONI](https://ooni.org/post/2022-iran-technical-multistakeholder-report/), only during a short period from September to October, the worst kind of restrictions have been applied in Iran.
 
-![Timeline of events in Iran between 16th September 2022 to 16th October 2022](/Timeline-of-events-in-Iran.png "Timeline of events in Iran between 16th September 2022 to 16th October 2022")
+![Timeline of events in Iran between 16th September 2022 to 16th October 2022](/Assets/Timeline-of-events-in-Iran.png "Timeline of events in Iran between 16th September 2022 to 16th October 2022")
 
 ### State of Filtering and censorship in Iran:
 Some non-distributive sources announce that the current filtering style and method is based on the old Golden Shield project, which was started in 1998 by the Ministry of Public Security of China, and later led to the production of firewalling equipment with the probable name of Great Firewall, And according to reports of Reporters Without Borders, countries, including Iran, Australia, Russia, Zimbabwe, Cuba, Vietnam, are using at least same version or similar firewall, as far as some of them including Iran, have even more difficult conditions than rather than China. Of course, it is obvious that at that time, the technologies and methods used to have been old, in comparison to very complex technologies of today and in a summary, category includes it includes as below: 
@@ -71,26 +71,26 @@ In the latest filtering solution, it has recently been observed that in many cas
 
 On the other hand, there were rumors that, by using IPv6, the DPI can be bypassed, but due to the full support of new firewalls from IPv6, this method is also unusable and easy to detect and restriction and in operators like IRANCELL, all attempts to connect to IPv6 addresses have failed, and Cloudflare's radar data has also reported a severe drop in IPv6 traffic.
 
-![Cloudflare Radar graph showing distribution of traffic by IP version for Irancell](/IPv6-IPv4-disruption-on-Irancell.png "Cloudflare Radar graph showing distribution of traffic by IP version for Irancell")
+![Cloudflare Radar graph showing distribution of traffic by IP version for Irancell](/Assets/IPv6-IPv4-disruption-on-Irancell.png "Cloudflare Radar graph showing distribution of traffic by IP version for Irancell")
 
-![IPv6 disruption on Irancell](/IPv6-disruption-on-Irancell.png "OONI attempts to make TCP connections using IPv6 in Irancell, showing failures starting on 22nd September 2022.The few measurements annotated in purple pertain to cases where OONI Probe users did not have IPv6 support")
+![IPv6 disruption on Irancell](/Assets/IPv6-disruption-on-Irancell.png "OONI attempts to make TCP connections using IPv6 in Irancell, showing failures starting on 22nd September 2022.The few measurements annotated in purple pertain to cases where OONI Probe users did not have IPv6 support")
 
 Also, the HTTP/3 protocol, which is the latest version of the HTTP protocol, and as a new protocol, it was thought that filtering equipment would not be able to effectively block it, because it uses a completely different network stack, and instead of using the traditional TCP and TLS protocols for the transmission and security is based on UDP and QUIC, it is also easily filtered and according to Cloudflare Radar reports, its traffic was close to zero.
 
-![HTTP/3 and QUIC Traffic Drop](/HTTP3-and-QUIC-Traffic-Drop.png "Cloudflare Radar graphs showing distribution of traffic by the three different HTTP versions and distribution of secure traffic by protocol for Iran")
+![HTTP/3 and QUIC Traffic Drop](/Assets/HTTP3-and-QUIC-Traffic-Drop.png "Cloudflare Radar graphs showing distribution of traffic by the three different HTTP versions and distribution of secure traffic by protocol for Iran")
 
 This strongly suggests that QUIC, which HTTP/3 relies on, was blocked entirely, perhaps by blocking UDP port 443. It is possible that network operators in Iran found it easier to block all QUIC traffic than to effectively implement targeted filtering on the newer QUIC protocol. This is supported by previous research that shows a difference in blocking for HTTP/3 vs HTTPS traffic.
 
 According to the OONI report, many software and VPN service providers are no longer accessible in Iran.
 
-![Increased blocking of Circumvention Tools](/OONI-data-on-the-blocking-of-circumvention-tool-websites.png "OONI data on the blocking of circumvention tool websites in Iran between 18th August 2022 to 17th October 2022")
+![Increased blocking of Circumvention Tools](/Assets/OONI-data-on-the-blocking-of-circumvention-tool-websites.png "OONI data on the blocking of circumvention tool websites in Iran between 18th August 2022 to 17th October 2022")
 
-![Increased blocking of encrypted DNS](/Increased-blocking-of-encrypted-DNS.png "OONI data on the blocking of popular DNS over HTTPS endpoints in Iran between August 2022 to September 2022")
+![Increased blocking of encrypted DNS](/Assets/Increased-blocking-of-encrypted-DNS.png "OONI data on the blocking of popular DNS over HTTPS endpoints in Iran between August 2022 to September 2022")
 
 
 In addition, the University of Maryland (in Washington, United States), provided a series of strategies called a genetic model aka Geneva, which is automatically learns how to evade the censorship of governments, claiming to pass through the filtering system For Chinese governments, Iran, India, and Kazakhstan, and in recent years have also had experiences in India (Airtel), but it should be noted that the proposed strategies are due to being Server Less, and only has the purpose of dodging the filtering system to continue communication and not used for Tunneling information, hence user’s information is visible to government authorities. As a result, there is the possibility of following-up and observation of viewed sites for the government; there is also another filtering barrier in Iran and its filtering is one step further and harder, because Geneva's operation is on TCP and initial requests should be able to resolved by the DNS protocol, and since DNS requests are filtered in Iran, therefore, the [Geneva](https://github.com/Kkevsterrr/geneva) algorithm in Iran is unusable. Its documentation and photos are attached below in this section.
 
-![Geneva - Fail Access](/geneva-debug-fail.png "It is not possible to access with the Geneva and the value 10.10.34.X is resolved by DNS.")
+![Geneva - Fail Access](/Assets/geneva-debug-fail.png "It is not possible to access with the Geneva and the value 10.10.34.X is resolved by DNS.")
 
 
 ## 2 - The only available solution for Bypassing the filtering service in Iran and all countries: 
