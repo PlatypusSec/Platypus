@@ -2,7 +2,7 @@
 
 Platypus Smart VPN for Safe passage through filtering
 
-**Are you want to using Platypus? If so, let us know! Shoot us an email at PlatypusSec@proton.me**
+**Are you want to using Platypus? If so, let us know! Shoot us an email at PlatypusSec@pm.me**
 
 ## 1 - Modality of Internet Filtering and the Crossing Solution
  
