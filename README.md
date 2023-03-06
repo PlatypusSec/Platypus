@@ -4,6 +4,22 @@ Platypus Smart VPN for Safe passage through filtering
 
 **Are you want to using Platypus? If so, let us know! Shoot us an email at PlatypusSec@pm.me**
 
+
+# Table of Content
+- [1 - Modality of Internet Filtering and the Crossing Solution](#1---modality-of-internet-filtering-and-the-crossing-solution)
+  - [What is the Platypus solution?](#what-is-the-platypus-solution)
+  - [Why is the name of this tool Platypus?](#why-is-the-name-of-this-tool-platypus)
+  - [Internet history in Iran](#internet-history-in-iran)
+  - [The history of filtering in Iran](#the-history-of-filtering-in-iran)
+  - [State of Filtering and censorship in Iran](#state-of-filtering-and-censorship-in-iran)
+    - [Filtering situation in Iran:](#in-the-following-we-explain-them-toward-the-filtering-situation-in-iran)
+- [The only available solution for Bypassing the filtering service in Iran and all countries](#2---the-only-available-solution-for-bypassing-the-filtering-service-in-iran-and-all-countries)
+  - [Development Method](#development-method)
+  - [Product Demo](#product-demo)
+  - [Disclaimer](#disclaimer)
+  - [contributors](#contributors)
+
+
 ## 1 - Modality of Internet Filtering and the Crossing Solution
  
 In this article it is been attempted to examine the method of filtering the Internet in Iran Telecommunication with a scientific and scrap approach, and then in order to train the users and ease the correct use in the labs, the proper way and solution to cross the filtering with the name “Platypus” is described.
@@ -19,9 +35,14 @@ The Platypus solution is actually a client-server software that, as a very new a
 Platypus is one of the five extant species of monotremes, mammals that lay eggs instead of giving birth to live young. Like other monotremes, it senses prey through electrolocation. It is one of the few species of venomous mammals, as the male platypus has a spur on the hind foot that delivers a venom, capable of causing severe pain to humans. The unusual appearance of this egg-laying, duck-billed, beaver-tailed, otter-footed mammal baffled European naturalists when they first encountered it, and the first scientists to examine a preserved platypus body (in 1799) judged it a fake, made of several animals sewn together. the platypus is a legally protected species in all states where it occurs.
 The current tool is also a special and rare project, whose function is still difficult for many experts to understand, so we chose the name Platypus.
 
+**[`^top^`](#table-of-content)**
+
 ### Internet history in Iran: 
 Iran has been connected to the Internet for university use since 1993, and the Basic Knowledge Research Institute was the first organization that was taken to use the Internet and connected to the Internet through the University of Vienna. Initially, Internet connection services were provided only to academic users, and the general use of the Internet through landlines, on the Dial-up base, was first provided by Neda Computer Company. The Internet was a security issue in Iran since the first day of presentation in Iran and was not interested in the authorities, so Nasser Ali Saadat (former director of Neda Computer Co.), with the support of Mr. Dorri Najaf Abadi (former Minister of Intelligence Service and former Attorney General of the country and the Technology Association in the Islamic Parliament in the fourth and fifth courses) the company's security staff managed to enter this category (although today's official newspaper information is not available for the company) and probably in history, this entry was a way to manage and secure Internet.
 In June 2001, Mr. Ali Khamenei issued "Committees for general policies of computer information networks." With the announcement of the general policies of computer information networks, Mr. Mohammad Khatami (President of Iran), despite the opposition of telecommunication and his government, with the legislature of the Internet outside the parliament and the Supreme Council of the Cultural Revolution, started to adopts the Internet laws, including filtering and its censorship. As conclusion of approvals, and enactments titled "Regulation and Criteria of Information and Computer Networks" entered the issue of filtering and monitoring Internet service provider companies. In 2002, filtering was taken seriously. The three-member committee gathered to address the Internet situation which included: The representative of the Ministry of Intelligence, the representative of the Ministry of Culture and Islamic Guidance and the representative Seda-va-Sima (National Television). Representative of the Secretariat of the Islamic Council and the representative of the Islamic propaganda organization as two other members later joined the committee. The committee listed 111,000 banned sites and gave the list up to Internet services providers companies for banning. 
+
+
+**[`^top^`](#table-of-content)**
 
 ### The history of filtering in Iran:
 Filtering in Iran is applied in accordance with the laws approved in the Supreme Council of Cyberspace and the Islamic Parliament and includes a wide range of Internet websites from pornography to political. The institutions involved in the filtering of Iran are widespread and structured, including important institutions to the Supreme Council of Cyberspace, the Committee of Determining the Criminal Content, the Cyber Army of the Islamic Republic of Iran and the FATA Police. In addition, in the private sector, the two filtering contractors of the Filtering are “Yaftar Pazhouhan Pishtaz Rayanesh Co.” and “Dadeh Pardazi Douran Co.”, whose their names are explicitly noted in the leaked emails from the e-mail server of Justice Organization. Meanwhile, the Supreme Council of Cyberspace is the highest institution that is responsible for determining the overall policies of cyberspace against the soft war with Western countries that is established in 2012. The Supreme Council of Cyberspace determines the content of the web that detects illegal. The council determines the list of websites that should be blocked based on considerations such as contrary to the norms of society, contrary to the Islamicization of being, being threatened for national security, and propagating filtering bypassing methods. The council and the Committee of Determining the Criminal Content are a close relationship and have common members. The Attorney General's Office observes filtering committees and communicates the filtering list to Iran Telecom and other data communication services and other related institutions. The Iranian Telecom company uses part of the list directly through the control of the public network of data, and it is responsible for other Internet service conductors that all have to buy their bandwidth through the telecommunication company. On the other hand, Internet governance is all under the supervision of the regulation and radio communication organization, which is legally obliged to implement policies designated by the Committee of Determining the Criminal Content.
@@ -36,6 +57,8 @@ According to the report provided by [OONI](https://ooni.org/post/2022-iran-techn
 
 ![Timeline of events in Iran between 16th September 2022 to 16th October 2022](/Assets/Timeline-of-events-in-Iran.png "Timeline of events in Iran between 16th September 2022 to 16th October 2022")
 
+**[`^top^`](#table-of-content)**
+
 ### State of Filtering and censorship in Iran:
 Some non-distributive sources announce that the current filtering style and method is based on the old Golden Shield project, which was started in 1998 by the Ministry of Public Security of China, and later led to the production of firewalling equipment with the probable name of Great Firewall, And according to reports of Reporters Without Borders, countries, including Iran, Australia, Russia, Zimbabwe, Cuba, Vietnam, are using at least same version or similar firewall, as far as some of them including Iran, have even more difficult conditions than rather than China. Of course, it is obvious that at that time, the technologies and methods used to have been old, in comparison to very complex technologies of today and in a summary, category includes it includes as below: 
 
@@ -46,6 +69,8 @@ Some non-distributive sources announce that the current filtering style and meth
   - DNS Query Name in DNS Protocol
   - SNI / ESNI IN TLS Client Hello
   - Layer7 Inspection and Define White List For L7 Protocols
+
+**[`^top^`](#table-of-content)**
 
 #### In the following, we explain them toward the filtering situation in Iran: 
 
@@ -93,6 +118,8 @@ In addition, the University of Maryland (in Washington, United States), provided
 ![Geneva - Fail Access](/Assets/geneva-debug-fail.png "It is not possible to access with the Geneva and the value 10.10.34.X is resolved by DNS.")
 
 
+**[`^top^`](#table-of-content)**
+
 ## 2 - The only available solution for Bypassing the filtering service in Iran and all countries: 
 According to the above and understanding the fact that the passage routines of bypassing the filter dam have been very hard and complex, the final question is whether there is still a solution to bypass this system?
 
@@ -107,6 +134,8 @@ Currently, the server section of this solution is provided on the FreeBSD Unix o
 Obviously, for the development of servers that provide services based on the given method, there is the need for revenue methods: 
 1. **Buying the full source of the product and then selling monthly accounts to customers:** in this method, which is also common with other VPN services, VPN account sellers can buy the full source of the server part of this product and set up n! number of different servers globally and users will have the ability to bypass through filtering by purchasing monthly accounts and downloading the Agent free of charge. 
 2. **Selling the product to a NGO as a general endowment:** In this way, a NGO may buy full source of the product in a whole package and publish the installation file version of the server for free on the Internet, so that everyone can install it and by Agent installation for free, they provide the anti-filtering solution for others.
+
+**[`^top^`](#table-of-content)**
 
 ### Product Demo:
 Email us to view the product demo in online sessions.
@@ -123,3 +152,4 @@ At the end, it should be noted that the methods presented for bypassing the filt
 
 <a href='https://twitter.com/PlatypusSec'><img src='https://img.shields.io/twitter/follow/PlatypusSec.svg?style=social&label=Follow' alt='Follow @PlatypusSec'></a>
 
+**[`^top^`](#table-of-content)**
